@@ -79,7 +79,7 @@ public class RunCreateVehicleSer {
     }
 
     public Connection connect() {
-        String dbLocation = "jdbc:ucanaccess://C:\\Users\\A. Mjeks\\Documents\\NetBeansProjects\\CarRentalApp\\CarRentalDB.mdb";
+        String dbLocation = "jdbc:ucanaccess://C:\\Users\\A. Mjeks\\Documents\\NetBeansProjects\\3rd Year\\CarRentalApp\\CarRentalDB.mdb";
         try {
             con = DriverManager.getConnection(dbLocation);
         } catch (SQLException ex) {
